@@ -16,7 +16,7 @@ services:
 
   myphp:
     container_name: myphp
-    build: .
+    
     image: php:7.4-fpm
     restart: always
     ports:
